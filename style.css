@@ -47,6 +47,11 @@ body{
     cursor: pointer;
 }
 
+#ingresar:hover{
+    background-color:#bfd2f5c4 ;
+}
+
+
 #resultado{
     display: none;
     background-color: aliceblue;

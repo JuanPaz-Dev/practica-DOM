@@ -1,3 +1,4 @@
+
 const botonIngreso = document.querySelector('#ingresar');
 
 botonIngreso.onclick = function(e){
@@ -13,6 +14,8 @@ botonIngreso.onclick = function(e){
 
     console.log(textoResultado);
     document.querySelector('#resultado').style.display = "block";
+    // const mensaje = document.querySelector('#resultado');
+    // mensaje.classList.add('animate__animated', 'animate__bounceOutLeft');
     document.querySelector('#resultado').innerHTML = textoResultado;
     return false;
 }
