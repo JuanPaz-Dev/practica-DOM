@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    min-height: 100vh;
+    background-color: #8EC5FC;
+    background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+#entrada-bar{
+    background-color: aliceblue;
+    height: 20rem;
+    width: 20rem;
+    padding: 0 30px 0 30px;
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+    box-shadow: 6px 8px 5px -2px rgba(0,0,0,0.24);
+}
+
+#nombre-usuario, #edad-usuario{
+    padding: 10px 0 10px 2px;
+    display: flex;
+    border: none;
+    background-color: #b3bdc798;
+    border-radius: 3px;
+}
+
+#ingresar
+{
+    background-color: #a6c4fcc4;
+    padding: 5px 20px 5px 20px;
+    color: rgba(96, 94, 94, 0.865);
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+#resultado{
+    display: none;
+    background-color: aliceblue;
+    padding: 5px 20px 5px 20px;
+    box-shadow: 6px 8px 5px -2px rgba(0,0,0,0.24);
+    border-radius: 5px;
+}
